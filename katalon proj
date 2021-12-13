@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Kat proj1</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.demoblaze.com/<datalist><option>https://www.demoblaze.com/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=login2<datalist><option>id=login2</option><option>link=Log in</option><option>xpath=//a[contains(text(),'Log in')]</option><option>xpath=//a[@id='login2']</option><option>xpath=//div[@id='navbarExample']/ul/li[5]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[5]</option><option>xpath=//li[5]/a</option><option>css=#login2</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=loginusername<datalist><option>id=loginusername</option><option>xpath=//input[@id='loginusername']</option><option>xpath=//div[@id='logInModal']/div/div/div[2]/form/div/input</option><option>xpath=//div[3]/div/div/div[2]/form/div/input</option><option>css=#loginusername</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=loginusername<datalist><option>id=loginusername</option><option>xpath=//input[@id='loginusername']</option><option>xpath=//div[@id='logInModal']/div/div/div[2]/form/div/input</option><option>xpath=//div[3]/div/div/div[2]/form/div/input</option><option>css=#loginusername</option></datalist></td><td>digvijayparab</td></tr>
+<tr><td>click</td><td>id=loginpassword<datalist><option>id=loginpassword</option><option>xpath=//input[@id='loginpassword']</option><option>xpath=//div[@id='logInModal']/div/div/div[2]/form/div[2]/input</option><option>xpath=//div[3]/div/div/div[2]/form/div[2]/input</option><option>css=#loginpassword</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=loginpassword<datalist><option>id=loginpassword</option><option>xpath=//input[@id='loginpassword']</option><option>xpath=//div[@id='logInModal']/div/div/div[2]/form/div[2]/input</option><option>xpath=//div[3]/div/div/div[2]/form/div[2]/input</option><option>css=#loginpassword</option></datalist></td><td>digvijayparab</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='logInModal']/div/div/div[3]/button[2]<datalist><option>xpath=//div[@id='logInModal']/div/div/div[3]/button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[2]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About us'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Video Player is loading.'])[1]/preceding::button[2]</option><option>xpath=//div[3]/div/div/div[3]/button[2]</option><option>css=#logInModal &gt; div.modal-dialog &gt; div.modal-content &gt; div.modal-footer &gt; button.btn.btn-primary</option></datalist></td><td></td></tr>
+<tr><td>captureEntirePageScreenshot</td><td><datalist><option></option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">tc2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://demoqa.com/droppable<datalist><option>https://demoqa.com/droppable</option></datalist></td><td></td></tr>
+<tr><td>dragAndDropToObject</td><td>id=draggable<datalist><option>id=draggable</option><option>xpath=//div[@id='draggable']</option><option>xpath=//div[@id='simpleDropContainer']/div</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Book Store API'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::div[6]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Acceptable'])[1]/preceding::div[2]</option><option>xpath=//*/text()[normalize-space(.)='Drag me']/parent::*</option><option>xpath=//div[2]/div[2]/div/div/div/div/div</option><option>css=#draggable</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
